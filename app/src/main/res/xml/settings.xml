@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/settings_general">
+        <SwitchPreference
+            android:title="@string/settings_notifications"
+            android:key="setting_notification_key"
+            android:icon="@drawable/ic_notifications_active_white_24dp"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_assistance" >
+        <Preference
+            android:icon="@drawable/ic_legal_orange_24dp"
+            android:title="@string/settings_legal"
+            android:key="settings_legal"
+            />
+        <Preference
+            android:icon="@drawable/ic_website_orange_24dp"
+            android:title="@string/settings_website"
+            android:key="settings_website"
+            />
+        <Preference
+            android:icon="@drawable/ic_contacts_orange_24dp"
+            android:title="@string/settings_contact"
+            android:key="settings_contact"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
